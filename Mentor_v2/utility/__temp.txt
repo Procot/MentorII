@@ -1,0 +1,3 @@
+string(6.  )&k_1=k_2
+string("y'(")&x_0&string(")")=y_0&string(',   )&y&string("(")&x_0&string(")")=y_0
+y&string('')-2*k_1*y&string(')+(k_1^2)*y=0

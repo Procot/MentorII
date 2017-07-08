@@ -1,0 +1,3343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{02adb0f0-5890-4127-a1d6-4c0720e9e14e}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{f9edfc68-3df5-45ae-890e-82fe824cf46a}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="utils\chain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\gen\derivs_generatedquestion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\gen\derivs_generatorhelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\render\script\derivs_scriptrendererhelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\dlgabout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\dlgaddquestions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\dlgnewgroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\dlgtestgenprogress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\dlgvariant.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\dlgvariants.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\gen\generatedquestion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\gen\generator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\gen\generatorhelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\render\image\imagerenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\gen\integrals_generatedquestion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\gen\integrals_generatorhelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\render\script\integrals_scriptrendererhelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\render\script\legacy_helpers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\gen\limits_generatedquestion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\gen\limits_generatorhelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\render\script\limits_scriptrendererhelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\render\script\m_deriv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\render\script\m_deriv_01.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\render\script\m_deriv_02.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\render\script\m_expressions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\render\script\m_integ.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\render\script\m_integ0xxb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\render\script\m_integ2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\render\script\m_integ_a01.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\render\script\m_integ_a02.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\render\script\m_integ_a03.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\render\script\m_limits.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\render\script\print\printscriptrenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\quiz.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\quiz_dlgproperties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tasks\view\views\quizadapter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\view\views\cell\quizcell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\file\quizfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\filter\quizfilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\quizgroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\quizgroup_dlgproperties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\view\views\cell\quizgroup_quizcell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\view\views\quizgroup_quiznodeview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\view\quizgroup_quizviewerhelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\file\quizgroup_xmlquizfile_structure_helper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\filter\group\quizgroupfilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\quiznode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\view\views\quiznodeview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\quizquestion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\view\views\cell\quizquestion_quizcell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\file\quizquestion_xmlquizfile_structure_helper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\quizvariant.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\view\quizview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\view\quizviewer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\view\quizviewerhelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\filter\group\random_quizgroupfilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\render\script\scriptrenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\render\script\scriptrendererhelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\filter\group\shuffle_quizgroupfilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="task2quiz\task2quiz.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tasks\view\views\cell\taskcell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tasks\taskgroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tasks\view\views\cell\taskgroup_taskcell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tasks\load\taskgroup_taskloaderhelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tasks\view\views\taskgroup_taskview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tasks\view\taskgroup_taskviewerhelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="task2quiz\taskgrouptoquiz.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tasks\load\taskloader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tasks\load\taskloaderhelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tasks\taskmtrtable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tasks\view\views\cell\taskmtrtable_taskcell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tasks\load\taskmtrtable_taskloaderhelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tasks\view\views\taskmtrtable_taskview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tasks\view\taskmtrtable_taskviewerhelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="task2quiz\taskmtrtabletoquiz.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tasks\tasknode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tasks\taskquestion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tasks\view\views\cell\taskquestion_taskcell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tasks\load\taskquestion_taskloaderhelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tasks\view\views\taskquestion_taskview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tasks\view\taskquestion_taskviewerhelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="task2quiz\taskquestiontoquiz.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="task2quiz\tasktoquizhelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tasks\tasktree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tasks\view\views\taskview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tasks\view\taskviewer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tasks\view\taskviewerhelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\txttobmp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\render\web\webrenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\file\xmlquizfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\file\xmlquizfile_quizgroupfilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\file\xmlquizfile_structure.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\file\xmlquizfile_variants.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_dlgabout.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_dlgabout.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_dlgaddquestions.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_dlgaddquestions.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_dlgnewgroup.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_dlgnewgroup.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_dlgtestgenprogress.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_dlgtestgenprogress.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_dlgvariant.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_dlgvariant.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_dlgvariants.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_dlgvariants.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_mainwindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_mainwindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_quiz_dlgproperties.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_quiz_dlgproperties.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_quizcell.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_quizcell.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_quizgroup_dlgproperties.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_quizgroup_dlgproperties.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_quizgroup_quizcell.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_quizgroup_quizcell.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_quizgroup_quiznodeview.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_quizgroup_quiznodeview.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_quiznode.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_quiznode.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_quiznodeview.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_quiznodeview.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_quizquestion_quizcell.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_quizquestion_quizcell.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_quizview.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_quizview.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_taskcell.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_taskcell.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_taskgroup_taskcell.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_taskgroup_taskcell.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_taskgroup_taskview.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_taskgroup_taskview.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_taskmtrtable_taskcell.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_taskmtrtable_taskcell.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_taskmtrtable_taskview.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_taskmtrtable_taskview.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_taskquestion_taskcell.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_taskquestion_taskcell.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_taskquestion_taskview.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_taskquestion_taskview.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_taskview.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_taskview.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_r.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utils\chain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz\gen\derivs_generatedquestion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz\gen\derivs_generatorhelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz\render\script\derivs_scriptrendererhelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="gui\dlgabout.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\dlgaddquestions.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\dlgnewgroup.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\dlgtestgenprogress.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\dlgvariant.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\dlgvariants.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="quiz\gen\generatedquestion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz\gen\generator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz\gen\generatorhelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz\render\image\imagerenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz\gen\integrals_generatedquestion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz\gen\integrals_generatorhelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz\render\script\integrals_scriptrendererhelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz\render\script\legacy_helpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz\gen\limits_generatedquestion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz\gen\limits_generatorhelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz\render\script\limits_scriptrendererhelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz\render\script\m_deriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz\render\script\m_deriv_01.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz\render\script\m_deriv_02.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz\gen\m_expressions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz\render\script\m_expressions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz\render\script\m_integ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz\render\script\m_integ0xxb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz\render\script\m_integ2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz\render\script\m_integ_a01.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz\render\script\m_integ_a02.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz\render\script\m_integ_a03.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz\render\script\m_limits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="gui\mainwindow.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="quiz\gen\mc_deriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz\render\script\print\printscriptrenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz\quiz.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="quiz\quiz_dlgproperties.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="tasks\view\views\quizadapter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="quiz\view\views\cell\quizcell.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="quiz\file\quizfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz\filter\quizfilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz\quizgroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="quiz\quizgroup_dlgproperties.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="quiz\view\views\cell\quizgroup_quizcell.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="quiz\view\views\quizgroup_quiznodeview.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="quiz\view\quizgroup_quizviewerhelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz\file\quizgroup_xmlquizfile_structure_helper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz\filter\group\quizgroupfilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="quiz\quiznode.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="quiz\view\views\quiznodeview.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="quiz\quizquestion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="quiz\view\views\cell\quizquestion_quizcell.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="quiz\file\quizquestion_xmlquizfile_structure_helper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz\quizvariant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="quiz\view\quizview.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="quiz\view\quizviewer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz\view\quizviewerhelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz\filter\group\random_quizgroupfilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz\render\script\scriptrenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz\render\script\scriptrendererhelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz\filter\group\shuffle_quizgroupfilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="task2quiz\task2quiz.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="tasks\view\views\cell\taskcell.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="tasks\taskgroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="tasks\view\views\cell\taskgroup_taskcell.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="tasks\load\taskgroup_taskloaderhelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="tasks\view\views\taskgroup_taskview.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="tasks\view\taskgroup_taskviewerhelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="task2quiz\taskgrouptoquiz.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasks\load\taskloader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasks\load\taskloaderhelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasks\taskmtrtable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="tasks\view\views\cell\taskmtrtable_taskcell.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="tasks\load\taskmtrtable_taskloaderhelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="tasks\view\views\taskmtrtable_taskview.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="tasks\view\taskmtrtable_taskviewerhelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="task2quiz\taskmtrtabletoquiz.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasks\tasknode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasks\taskquestion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="tasks\view\views\cell\taskquestion_taskcell.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="tasks\load\taskquestion_taskloaderhelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="tasks\view\views\taskquestion_taskview.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="tasks\view\taskquestion_taskviewerhelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="task2quiz\taskquestiontoquiz.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="task2quiz\tasktoquizhelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasks\tasktree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="tasks\view\views\taskview.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="tasks\view\taskviewer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasks\view\taskviewerhelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\txttobmp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz\render\web\webrenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz\file\xmlquizfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz\file\xmlquizfile_quizgroupfilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz\file\xmlquizfile_structure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz\file\xmlquizfile_variants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_dlgabout.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_dlgaddquestions.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_dlgnewgroup.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_dlgtestgenprogress.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_dlgvariant.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_dlgvariants.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_mainwindow.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_quiz_dlgproperties.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_quizgroup_dlgproperties.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_quizgroup_quizcell.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_quizgroup_quiznodeview.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_quizquestion_quizcell.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_quizview.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_taskgroup_taskcell.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_taskgroup_taskview.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_taskmtrtable_taskcell.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_taskmtrtable_taskview.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_taskquestion_taskcell.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_taskquestion_taskview.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="gui\dlgabout.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\dlgaddquestions.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\dlgnewgroup.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\dlgtestgenprogress.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\dlgvariant.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\dlgvariants.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\mainwindow.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="quiz\quiz_dlgproperties.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="quiz\quizgroup_dlgproperties.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="quiz\view\views\cell\quizgroup_quizcell.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="quiz\view\views\quizgroup_quiznodeview.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="quiz\view\views\cell\quizquestion_quizcell.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="quiz\view\quizview.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="tasks\view\views\cell\taskgroup_taskcell.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="tasks\view\views\taskgroup_taskview.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="tasks\view\views\cell\taskmtrtable_taskcell.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="tasks\view\views\taskmtrtable_taskview.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="tasks\view\views\cell\taskquestion_taskcell.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="tasks\view\views\taskquestion_taskview.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="apps\1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\51\1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\53\1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\10.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\10.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\10.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\51\10.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\100.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\100.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\100.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\101.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\101.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\101.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\102.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\102.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\102.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\103.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\103.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\103.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\104.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\104.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\104.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\105.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\105.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\105.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\106.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\106.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\106.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\107.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\107.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\107.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\108.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\108.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\108.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\109.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\109.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\109.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\11.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\11.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\11.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\51\11.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\110.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\110.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\110.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\111.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\111.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\111.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\112.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\112.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\112.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\113.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\113.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\114.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\114.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\115.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\115.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\116.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\116.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\117.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\117.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\118.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\118.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\119.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\119.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\12.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\12.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\12.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\51\12.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\120.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\120.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\121.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\121.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\122.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\122.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\123.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\123.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\124.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\124.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\125.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\126.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\127.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\128.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\129.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\51\13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\130.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\131.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\132.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\133.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\134.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\135.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\136.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\137.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\138.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\139.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\14.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\14.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\14.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\140.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\141.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\142.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\143.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\144.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\145.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\146.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\147.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\148.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\149.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\15.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\15.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\15.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\150.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\151.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\152.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\153.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\154.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\155.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\156.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\157.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\158.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\159.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\16.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\16.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\16.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\160.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\161.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\162.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\163.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\164.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\165.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\166.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\167.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\168.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\169.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\17.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\17.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\17.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\170.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\171.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\172.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\173.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\174.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\175.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\176.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\177.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\178.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\179.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\18.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\18.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\18.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\180.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\181.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\182.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\183.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\184.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\185.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\186.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\187.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\188.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\189.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\19.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\19.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\19.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\190.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\191.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\192.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\193.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\194.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\195.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\196.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\197.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\198.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\199.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\51\2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\53\2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\20.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\20.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\20.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\200.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\201.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\202.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\203.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\204.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\205.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\206.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\207.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\208.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\209.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\21.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\21.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\21.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\210.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\211.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\212.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\213.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\214.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\215.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\216.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\217.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\218.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\219.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\22.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\22.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\22.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\220.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\221.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\222.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\223.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\224.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\225.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\226.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\227.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\228.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\229.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\23.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\23.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\23.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\230.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\231.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\232.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\233.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\234.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\235.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\236.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\237.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\238.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\239.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\24.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\24.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\24.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\240.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\241.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\242.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\243.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\244.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\245.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\246.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\247.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\248.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\249.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\25.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\25.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\25.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\26.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\26.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\26.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\27.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\27.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\27.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\28.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\28.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\28.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\29.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\29.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\29.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\51\3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\53\3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\30.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\30.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\30.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\31.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\31.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\31.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\32.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\32.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\32.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\33.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\33.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\33.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\34.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\34.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\34.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\35.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\35.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\35.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\36.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\36.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\36.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\37.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\37.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\37.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\38.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\38.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\38.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\39.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\39.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\39.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\4.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\4.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\4.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\51\4.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\53\4.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\40.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\40.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\40.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\41.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\41.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\41.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\42.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\42.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\42.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\43.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\43.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\43.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\44.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\44.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\44.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\45.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\45.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\45.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\46.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\46.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\46.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\47.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\47.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\47.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\48.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\48.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\48.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\49.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\49.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\49.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\5.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\5.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\5.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\51\5.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\53\5.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\50.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\50.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\50.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\51.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\51.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\51.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\52.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\52.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\52.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\53.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\53.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\53.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\54.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\54.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\54.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\55.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\55.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\55.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\56.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\56.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\56.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\57.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\57.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\57.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\58.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\58.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\58.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\59.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\59.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\59.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\6.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\6.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\6.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\51\6.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\53\6.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\60.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\60.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\60.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\61.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\61.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\61.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\62.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\62.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\62.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\63.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\63.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\63.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\64.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\64.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\64.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\65.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\65.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\65.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\66.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\66.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\66.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\67.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\67.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\67.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\68.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\68.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\68.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\69.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\69.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\69.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\7.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\7.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\7.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\51\7.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\70.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\70.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\70.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\71.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\71.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\71.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\72.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\72.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\72.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\73.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\73.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\73.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\74.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\74.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\74.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\75.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\75.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\75.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\76.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\76.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\76.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\77.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\77.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\77.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\78.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\78.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\78.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\79.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\79.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\79.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\8.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\8.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\8.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\51\8.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\80.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\80.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\80.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\81.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\81.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\81.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\82.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\82.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\82.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\83.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\83.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\83.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\84.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\84.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\84.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\85.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\85.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\85.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\86.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\86.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\86.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\87.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\87.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\87.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\88.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\88.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\88.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\89.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\89.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\89.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\9.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\9.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\9.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\51\9.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\90.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\90.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\90.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\91.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\91.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\91.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\92.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\92.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\92.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\93.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\93.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\93.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\94.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\94.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\94.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\95.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\95.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\95.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\96.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\96.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\96.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\97.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\97.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\97.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\98.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\98.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\98.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\46\99.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\47\99.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\49\99.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\access.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\accessibility-directory.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\accessories-archiver.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\accessories-text-editor.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\add.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\address-book-new.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\appointment-new.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\appointment.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\back.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="base.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\bookmark-new.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\bookmark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\bookmark_add.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\bookmarks_list_add.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\bottom.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\browser.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\centrejust.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\clock.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\config-users.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico32\contact-new.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\contact-new.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\document-new.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\document-open.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\document-print-preview.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\document-print.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\document-properties.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\document-save-as.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\document-save.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\down.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\edit-copy.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\edit-cut.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\edit-delete.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\edit-find-replace.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\edit-find.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\edit-paste.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\edit-redo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\edit-select-all.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\edit-undo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\editcopy.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\editcut.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\editdelete.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\editpaste.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\email.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\evolution.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\file-manager.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\file-roller.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\filefind.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\filenew.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\fileopen.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\fileprint.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\filequickprint.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\filesave.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\filesaveas.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\find.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\finish.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\firefox-icon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\firefox.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\folder-new.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\folder.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\folder_new.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\format-indent-less.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\format-indent-more.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\format-justify-center.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\format-justify-fill.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\format-justify-left.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\format-justify-right.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\format-text-bold.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\format-text-italic.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\format-text-strikethrough.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\format-text-underline.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\forward.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\gnome-app-install.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\gnome-help.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gnome-lockscreen.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\gnome-logout.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\gnome-monitor.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\gnome-panel-screenshot.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\gnome-screenshot.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gnome-searchtool.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\gnome-session-halt.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\gnome-session-hibernate.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\gnome-session-logout.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\gnome-session-reboot.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\gnome-session-suspend.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\gnome-session-switch.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\gnome-settings-accessibility-technologies.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\gnome-settings-default-applications.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\gnome-settings-theme.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gnome-stock-text-indent.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gnome-stock-text-unindent.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\gnome-terminal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\gnome-window-manager.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\go-bottom.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\go-down.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\go-first.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\go-home.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\go-last.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\go-next.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\go-previous.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\go-top.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\go-up.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gohome.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\gthumb.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gtk-add.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gtk-apply.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gtk-bold.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gtk-cancel.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gtk-cdrom.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gtk-close.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gtk-copy.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gtk-cut.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gtk-find-and-replace.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gtk-find.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gtk-go-back-ltr.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gtk-go-back-rtl.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gtk-go-down.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gtk-go-forward-ltr.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gtk-go-forward-rtl.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gtk-go-up.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gtk-goto-bottom.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gtk-goto-first-ltr.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gtk-goto-first-rtl.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gtk-goto-last-ltr.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gtk-goto-last-rtl.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gtk-goto-top.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\gtk-help.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gtk-home.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gtk-indent.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gtk-italic.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gtk-justify-center.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gtk-justify-fill.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gtk-justify-left.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gtk-justify-right.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gtk-new.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gtk-no.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gtk-ok.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gtk-open.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gtk-paste.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gtk-print-preview.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gtk-print.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gtk-properties.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gtk-redo-ltr.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gtk-refresh.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gtk-remove.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gtk-save-as.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gtk-save.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gtk-stop.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gtk-strikethrough.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gtk-underline.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gtk-undo-ltr.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gtk-unindent.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gtk-yes.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\gtk_fullscreen.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\gtkpod.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\help-browser.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\help.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\internet-mail.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\internet-web-browser.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\kcmkwm.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\kedit.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\kfind.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\kfm.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\kfm_home.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\khelpcenter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\konsole.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\kscreensaver.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\kwin.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\leftjust.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\list-add.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\list-remove.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\lock.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\mail-forward.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\mail-mark-junk.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\mail-message-new.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\mail-reply-all.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\mail-reply-sender.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\mail-send-receive.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\mail_forward.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\mail_generic.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\mail_new.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\mail_replyall.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\mail_spam.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\mozilla-firefox.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\mozilla-thunderbird.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\music-player.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\nautilus-cd-burner.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\next.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\ooo-base.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\ooo-calc.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\ooo-draw.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\ooo-impress.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\ooo-template.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\ooo-web.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\ooo-writer.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\openterm.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\preferences-desktop-accessibility.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\preferences-desktop-screensaver.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\preferences-system-windows.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\previous.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\process-stop.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="r.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="apps\redhat-email.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\redhat-filemanager.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\redhat-home.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\redhat-web-browser.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\redo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\reload.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\reload3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\reload_all_tabs.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\reload_page.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\remove.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\rhythmbox-tray-icon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\rhythmbox.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\rightjust.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\screensaver.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\search.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\start.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\stock_add-bookmark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\stock_bottom.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\stock_copy.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\stock_cut.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\stock_down.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\stock_exit.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\stock_file-properites.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\stock_first.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\stock_fullscreen.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\stock_help-add-bookmark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\stock_help.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\stock_home.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\stock_last.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\stock_left.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\stock_mail-compose.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\stock_mail-forward.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\stock_mail-reply-to-all.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\stock_mail-reply.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\stock_mail-send-receive.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\stock_new-address-book.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\stock_new-bcard.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\stock_new-dir.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\stock_new-tab.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\stock_new-text.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\stock_paste.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\stock_print-preview.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\stock_print.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\stock_redo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\stock_refresh.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\stock_right.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\stock_save-as.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\stock_save.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\stock_search-and-replace.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\stock_search.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\stock_select-all.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\stock_stop.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\stock_text-strikethrough.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\stock_text_bold.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\stock_text_center.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\stock_text_indent.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\stock_text_italic.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\stock_text_justify.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\stock_text_left.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\stock_text_right.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\stock_text_underlined.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\stock_text_unindent.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\stock_top.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\stock_undo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\stock_up.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\stop.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\susehelpcenter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\system-file-manager.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\system-lock-screen.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\system-search.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\system-shutdown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\system-users.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\tab-new.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\tab_new.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\terminal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\text-editor.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\text_bold.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\text_italic.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\text_strike.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\text_under.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\thunderbird.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\top.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\undo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\up.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\update-manager.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\user-info.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\users.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\utilities-system-monitor.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\utilities-terminal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="html\variantview_footer.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="html\variantview_header.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="html\variantview_image.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\view-refresh.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\view_fullscreen.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\web-browser.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\window-new.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\window_fullscreen.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\window_new.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\xfce-edit.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\xfce-filemanager.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\xfce-mail.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\xfce-man.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico\xfce-system-lock.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\xfce-terminal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\xfwm4.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="apps\xscreensaver.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,5 @@
+String("Тема: ")
+String("Вариант 7, задача 4.")
+String("Найти интеграл:")
+Int(x*sin(x))*Diff(x)=...
+String( )
