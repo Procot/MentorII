@@ -46,18 +46,21 @@
       <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
     <Filter Include="Generated Files\Debug">
-      <UniqueIdentifier>{02adb0f0-5890-4127-a1d6-4c0720e9e14e}</UniqueIdentifier>
+      <UniqueIdentifier>{77577343-e9d7-4fd5-a98e-f837dc048728}</UniqueIdentifier>
       <Extensions>cpp;moc</Extensions>
       <SourceControlFiles>False</SourceControlFiles>
     </Filter>
     <Filter Include="Generated Files\Release">
-      <UniqueIdentifier>{f9edfc68-3df5-45ae-890e-82fe824cf46a}</UniqueIdentifier>
+      <UniqueIdentifier>{22e08b2b-5760-4bb1-81c2-a1f4c3e66117}</UniqueIdentifier>
       <Extensions>cpp;moc</Extensions>
       <SourceControlFiles>False</SourceControlFiles>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="utils\chain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\render\web\convert_to_tex.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="quiz\gen\derivs_generatedquestion.cpp">
@@ -69,6 +72,15 @@
     <ClCompile Include="quiz\render\script\derivs_scriptrendererhelper.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="quiz\gen\diffequ_generatedquestion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\gen\diffequ_generatorhelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\render\script\diffequ_scriptrendererhelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="gui\dlgabout.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -76,6 +88,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="gui\dlgnewgroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\dlgprint.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="gui\dlgtestgenprogress.cpp">
@@ -129,6 +144,9 @@
     <ClCompile Include="quiz\render\script\m_deriv_02.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="quiz\render\script\m_diffequ.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="quiz\render\script\m_expressions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -151,6 +169,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="quiz\render\script\m_limits.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\render\script\m_series.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
@@ -235,6 +256,15 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="quiz\render\script\scriptrendererhelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\gen\series_generatedquestion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\gen\series_generatorhelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz\render\script\series_scriptrendererhelper.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="quiz\filter\group\shuffle_quizgroupfilter.cpp">
@@ -361,6 +391,12 @@
       <Filter>Generated Files\Debug</Filter>
     </ClCompile>
     <ClCompile Include="Release\moc_dlgnewgroup.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_dlgprint.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_dlgprint.cpp">
       <Filter>Generated Files\Release</Filter>
     </ClCompile>
     <ClCompile Include="Debug\moc_dlgtestgenprogress.cpp">
@@ -497,6 +533,12 @@
     <ClInclude Include="utils\chain.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="convert_to_tex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz\render\web\convert_to_tex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="quiz\gen\derivs_generatedquestion.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -506,6 +548,15 @@
     <ClInclude Include="quiz\render\script\derivs_scriptrendererhelper.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="quiz\gen\diffequ_generatedquestion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz\gen\diffequ_generatorhelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz\render\script\diffequ_scriptrendererhelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <CustomBuild Include="gui\dlgabout.h">
       <Filter>Header Files</Filter>
     </CustomBuild>
@@ -513,6 +564,9 @@
       <Filter>Header Files</Filter>
     </CustomBuild>
     <CustomBuild Include="gui\dlgnewgroup.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\dlgprint.h">
       <Filter>Header Files</Filter>
     </CustomBuild>
     <CustomBuild Include="gui\dlgtestgenprogress.h">
@@ -566,7 +620,7 @@
     <ClInclude Include="quiz\render\script\m_deriv_02.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="quiz\gen\m_expressions.h">
+    <ClInclude Include="quiz\render\script\m_diffequ.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="quiz\render\script\m_expressions.h">
@@ -593,12 +647,12 @@
     <ClInclude Include="quiz\render\script\m_limits.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="quiz\render\script\m_series.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <CustomBuild Include="gui\mainwindow.h">
       <Filter>Header Files</Filter>
     </CustomBuild>
-    <ClInclude Include="quiz\gen\mc_deriv.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="quiz\render\script\print\printscriptrenderer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -675,6 +729,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="quiz\render\script\scriptrendererhelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz\gen\series_generatedquestion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz\gen\series_generatorhelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz\render\script\series_scriptrendererhelper.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="quiz\filter\group\shuffle_quizgroupfilter.h">
@@ -794,6 +857,9 @@
     <ClInclude Include="GeneratedFiles\ui_dlgnewgroup.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_dlgprint.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
     <ClInclude Include="GeneratedFiles\ui_dlgtestgenprogress.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
@@ -851,6 +917,9 @@
       <Filter>Form Files</Filter>
     </CustomBuild>
     <CustomBuild Include="gui\dlgnewgroup.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\dlgprint.ui">
       <Filter>Form Files</Filter>
     </CustomBuild>
     <CustomBuild Include="gui\dlgtestgenprogress.ui">

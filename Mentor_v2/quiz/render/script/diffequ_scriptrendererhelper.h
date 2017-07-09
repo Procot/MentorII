@@ -4,6 +4,6 @@
 class diffequ_ScriptRendererHelper : public ScriptRendererHelper
 {
 public:
-	bool accept(GeneratedQuestion *q) { return true; }
-	QuestionScript get(GeneratedQuestion *q) { return QuestionScript(); }
+	bool accept(GeneratedQuestion *q);
+	QuestionScript get(GeneratedQuestion *q);
 };
