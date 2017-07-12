@@ -50,7 +50,8 @@ private:
 template <typename fromT, typename toT>
 toT Chain<fromT, toT>::get (fromT value)
 {
-	for(int i=0; i<_helpers.count(); ++i)
+	for(int 
+		i=0; i<_helpers.count(); ++i)
 		if (_helpers[i]->accept(value))
 			return _helpers[i]->get(value);
 	return toT();
