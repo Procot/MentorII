@@ -72,6 +72,8 @@ TaskGroupView::~TaskGroupView()
 void TaskGroupView::on_tableWidget_cellDoubleClicked(int row, int column)
 {
 	TaskCell *cv = (TaskCell *)(ui->tableWidget->cellWidget(row, column));
+	/*TaskNode *str = cv->node()->parent();*/
+	QWidget *wd = ui->tableWidget->cellWidget(row, column);
 	emit enterNode(cv->node());
 }
 

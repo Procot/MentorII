@@ -842,6 +842,9 @@
     <ClInclude Include="GeneratedFiles\ui_taskquestion_taskview.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="gui\dlgabout.ui">
@@ -3339,5 +3342,21 @@
     <None Include="apps\xscreensaver.png">
       <Filter>Resource Files</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Mentor_v2.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="apps\54\1.png" />
+    <Image Include="apps\54\2.png" />
+    <Image Include="apps\54\3.png" />
+    <Image Include="apps\54\4.png" />
+    <Image Include="apps\54\5.png" />
+    <Image Include="apps\54\6.png" />
+    <Image Include="apps\54\7.png" />
+    <Image Include="apps\54\8.png" />
+    <Image Include="apps\54\9.png" />
+    <Image Include="apps\54\10.png" />
+    <Image Include="bitmap1.bmp" />
   </ItemGroup>
 </Project>

@@ -1,386 +1,136 @@
-﻿  moc_dlgabout.cpp
-  moc_dlgaddquestions.cpp
-  moc_dlgnewgroup.cpp
-  moc_dlgtestgenprogress.cpp
-c:\mentorii\mentor_v2\gui\../quiz/render/web/webrenderer.h(7): warning C4100: totalQuestions: неиспользованный формальный параметр
-c:\mentorii\mentor_v2\gui\../quiz/render/web/webrenderer.h(7): warning C4100: processed: неиспользованный формальный параметр
-c:\mentorii\mentor_v2\gui\../quiz/render/web/webrenderer.h(8): warning C4100: totalQuestions: неиспользованный формальный параметр
-  moc_dlgvariant.cpp
-  moc_dlgvariants.cpp
-  moc_mainwindow.cpp
-  moc_quizcell.cpp
-  moc_quizgroup_dlgproperties.cpp
-  moc_quizgroup_quizcell.cpp
-  moc_quizgroup_quiznodeview.cpp
-  moc_quiznode.cpp
-  moc_quiznodeview.cpp
-  moc_quizquestion_quizcell.cpp
-  moc_quizview.cpp
-  moc_quiz_dlgproperties.cpp
-  moc_taskcell.cpp
-  moc_taskgroup_taskcell.cpp
-  moc_taskgroup_taskview.cpp
-  moc_taskmtrtable_taskcell.cpp
-  Создание кода...
-  Компиляция...
-  moc_taskmtrtable_taskview.cpp
-  moc_taskquestion_taskcell.cpp
-  moc_taskquestion_taskview.cpp
-  moc_taskview.cpp
-  chain.cpp
-  derivs_generatedquestion.cpp
-  derivs_generatorhelper.cpp
-  derivs_scriptrendererhelper.cpp
-  dlgabout.cpp
-  dlgaddquestions.cpp
-  dlgnewgroup.cpp
-  dlgtestgenprogress.cpp
-c:\mentorii\mentor_v2\gui\../quiz/render/web/webrenderer.h(7): warning C4100: totalQuestions: неиспользованный формальный параметр
-c:\mentorii\mentor_v2\gui\../quiz/render/web/webrenderer.h(7): warning C4100: processed: неиспользованный формальный параметр
-c:\mentorii\mentor_v2\gui\../quiz/render/web/webrenderer.h(8): warning C4100: totalQuestions: неиспользованный формальный параметр
-gui\dlgtestgenprogress.cpp(25): warning C4100: totalQuestions: неиспользованный формальный параметр
-  dlgvariant.cpp
-  dlgvariants.cpp
-c:\mentorii\mentor_v2\gui\../quiz/render/web/webrenderer.h(7): warning C4100: totalQuestions: неиспользованный формальный параметр
-c:\mentorii\mentor_v2\gui\../quiz/render/web/webrenderer.h(7): warning C4100: processed: неиспользованный формальный параметр
-c:\mentorii\mentor_v2\gui\../quiz/render/web/webrenderer.h(8): warning C4100: totalQuestions: неиспользованный формальный параметр
-  generatedquestion.cpp
-  generator.cpp
-c:\mentorii\mentor_v2\quiz\gen\series_generatorhelper.h(9): warning C4100: q: неиспользованный формальный параметр
-c:\mentorii\mentor_v2\quiz\gen\series_generatorhelper.h(10): warning C4100: q: неиспользованный формальный параметр
-c:\mentorii\mentor_v2\quiz\gen\diffequ_generatorhelper.h(9): warning C4100: q: неиспользованный формальный параметр
-c:\mentorii\mentor_v2\quiz\gen\diffequ_generatorhelper.h(10): warning C4100: q: неиспользованный формальный параметр
-  generatorhelper.cpp
-  imagerenderer.cpp
-quiz\render\image\imagerenderer.cpp(15): warning C4189: questions: локальная переменная инициализирована, но не использована
-quiz\render\image\imagerenderer.cpp(14): warning C4189: number: локальная переменная инициализирована, но не использована
-  integrals_generatedquestion.cpp
-  integrals_generatorhelper.cpp
-  Создание кода...
-  Компиляция...
-  integrals_scriptrendererhelper.cpp
-  legacy_helpers.cpp
-quiz\render\script\legacy_helpers.cpp(12): warning C4156: удаление массива без использования формы оператора "delete", предусмотренной для массива; подставлена предусмотренная форма оператора
-  limits_generatedquestion.cpp
-  limits_generatorhelper.cpp
-  limits_scriptrendererhelper.cpp
-quiz\render\script\limits_scriptrendererhelper.cpp(155): warning C4101: done: неиспользованная локальная переменная
-quiz\render\script\limits_scriptrendererhelper.cpp(164): warning C4101: lim1: неиспользованная локальная переменная
-  m_deriv.cpp
-quiz\render\script\m_deriv.cpp(527): warning C4101: a: неиспользованная локальная переменная
-quiz\render\script\m_deriv.cpp(1089): warning C4101: z: неиспользованная локальная переменная
-quiz\render\script\m_deriv.cpp(1389): warning C4101: delta: неиспользованная локальная переменная
-quiz\render\script\m_deriv.cpp(1426): warning C4101: delta: неиспользованная локальная переменная
-quiz\render\script\m_deriv.cpp(1465): warning C4101: delta: неиспользованная локальная переменная
-quiz\render\script\m_deriv.cpp(1503): warning C4101: delta: неиспользованная локальная переменная
-quiz\render\script\m_deriv.cpp(1541): warning C4101: delta: неиспользованная локальная переменная
-quiz\render\script\m_deriv.cpp(1581): warning C4101: delta: неиспользованная локальная переменная
-quiz\render\script\m_deriv.cpp(1848): warning C4101: m: неиспользованная локальная переменная
-quiz\render\script\m_deriv.cpp(2573): warning C4100: src: неиспользованный формальный параметр
-quiz\render\script\m_deriv.cpp(2638): warning C4101: x0: неиспользованная локальная переменная
-  m_deriv_01.cpp
-quiz\render\script\m_deriv_01.cpp(69): warning C4101: poly: неиспользованная локальная переменная
-quiz\render\script\m_deriv_01.cpp(93): warning C4101: poly: неиспользованная локальная переменная
-quiz\render\script\m_deriv_01.cpp(117): warning C4101: poly: неиспользованная локальная переменная
-quiz\render\script\m_deriv_01.cpp(141): warning C4101: poly: неиспользованная локальная переменная
-quiz\render\script\m_deriv_01.cpp(165): warning C4101: poly: неиспользованная локальная переменная
-quiz\render\script\m_deriv_01.cpp(189): warning C4101: poly: неиспользованная локальная переменная
-quiz\render\script\m_deriv_01.cpp(213): warning C4101: poly: неиспользованная локальная переменная
-quiz\render\script\m_deriv_01.cpp(237): warning C4101: poly: неиспользованная локальная переменная
-quiz\render\script\m_deriv_01.cpp(261): warning C4101: poly: неиспользованная локальная переменная
-quiz\render\script\m_deriv_01.cpp(285): warning C4101: poly: неиспользованная локальная переменная
-quiz\render\script\m_deriv_01.cpp(827): warning C4101: poly: неиспользованная локальная переменная
-quiz\render\script\m_deriv_01.cpp(851): warning C4101: poly: неиспользованная локальная переменная
-  m_deriv_02.cpp
-quiz\render\script\m_deriv_02.cpp(447): warning C4101: buf: неиспользованная локальная переменная
-quiz\render\script\m_deriv_02.cpp(565): warning C4101: a: неиспользованная локальная переменная
-  m_expressions.cpp
-quiz\render\script\m_expressions.cpp(675): warning C4100: sign: неиспользованный формальный параметр
-quiz\render\script\m_expressions.cpp(703): warning C4189: sign: локальная переменная инициализирована, но не использована
-quiz\render\script\m_expressions.cpp(730): warning C4189: sign: локальная переменная инициализирована, но не использована
-quiz\render\script\m_expressions.cpp(766): warning C4101: cnt: неиспользованная локальная переменная
-quiz\render\script\m_expressions.cpp(778): warning C4101: cnt: неиспользованная локальная переменная
-  m_integ.cpp
-  m_integ0xxb.cpp
-quiz\render\script\m_integ0xxb.cpp(24): warning C4100: r: неиспользованный формальный параметр
-quiz\render\script\m_integ0xxb.cpp(40): warning C4101: buf: неиспользованная локальная переменная
-quiz\render\script\m_integ0xxb.cpp(58): warning C4100: r: неиспользованный формальный параметр
-quiz\render\script\m_integ0xxb.cpp(72): warning C4100: r: неиспользованный формальный параметр
-quiz\render\script\m_integ0xxb.cpp(86): warning C4100: r: неиспользованный формальный параметр
-quiz\render\script\m_integ0xxb.cpp(100): warning C4100: r: неиспользованный формальный параметр
-quiz\render\script\m_integ0xxb.cpp(114): warning C4100: r: неиспользованный формальный параметр
-quiz\render\script\m_integ0xxb.cpp(130): warning C4101: buf: неиспользованная локальная переменная
-quiz\render\script\m_integ0xxb.cpp(162): warning C4313: sprintf: конфликт "%d" в строке формата с аргументом 2 типа "char *"
-quiz\render\script\m_integ0xxb.cpp(150): warning C4101: buf: неиспользованная локальная переменная
-quiz\render\script\m_integ0xxb.cpp(190): warning C4101: buf: неиспользованная локальная переменная
-  m_integ2.cpp
-quiz\render\script\m_integ2.cpp(3): warning C4100: r: неиспользованный формальный параметр
-quiz\render\script\m_integ2.cpp(17): warning C4100: r: неиспользованный формальный параметр
-quiz\render\script\m_integ2.cpp(31): warning C4100: r: неиспользованный формальный параметр
-quiz\render\script\m_integ2.cpp(45): warning C4100: r: неиспользованный формальный параметр
-quiz\render\script\m_integ2.cpp(59): warning C4100: r: неиспользованный формальный параметр
-quiz\render\script\m_integ2.cpp(73): warning C4100: r: неиспользованный формальный параметр
-quiz\render\script\m_integ2.cpp(87): warning C4100: r: неиспользованный формальный параметр
-quiz\render\script\m_integ2.cpp(101): warning C4100: r: неиспользованный формальный параметр
-quiz\render\script\m_integ2.cpp(122): warning C4100: r: неиспользованный формальный параметр
-quiz\render\script\m_integ2.cpp(137): warning C4100: r: неиспользованный формальный параметр
-quiz\render\script\m_integ2.cpp(151): warning C4100: r: неиспользованный формальный параметр
-quiz\render\script\m_integ2.cpp(165): warning C4100: r: неиспользованный формальный параметр
-quiz\render\script\m_integ2.cpp(179): warning C4100: r: неиспользованный формальный параметр
-quiz\render\script\m_integ2.cpp(193): warning C4100: r: неиспользованный формальный параметр
-quiz\render\script\m_integ2.cpp(207): warning C4100: r: неиспользованный формальный параметр
-quiz\render\script\m_integ2.cpp(221): warning C4100: r: неиспользованный формальный параметр
-quiz\render\script\m_integ2.cpp(235): warning C4100: r: неиспользованный формальный параметр
-quiz\render\script\m_integ2.cpp(249): warning C4100: r: неиспользованный формальный параметр
-quiz\render\script\m_integ2.cpp(263): warning C4100: r: неиспользованный формальный параметр
-quiz\render\script\m_integ2.cpp(277): warning C4100: r: неиспользованный формальный параметр
-quiz\render\script\m_integ2.cpp(291): warning C4100: r: неиспользованный формальный параметр
-quiz\render\script\m_integ2.cpp(305): warning C4100: r: неиспользованный формальный параметр
-quiz\render\script\m_integ2.cpp(319): warning C4100: r: неиспользованный формальный параметр
-quiz\render\script\m_integ2.cpp(333): warning C4100: r: неиспользованный формальный параметр
-quiz\render\script\m_integ2.cpp(347): warning C4100: r: неиспользованный формальный параметр
-quiz\render\script\m_integ2.cpp(361): warning C4100: r: неиспользованный формальный параметр
-quiz\render\script\m_integ2.cpp(375): warning C4100: r: неиспользованный формальный параметр
-quiz\render\script\m_integ2.cpp(389): warning C4100: r: неиспользованный формальный параметр
-quiz\render\script\m_integ2.cpp(403): warning C4100: r: неиспользованный формальный параметр
-quiz\render\script\m_integ2.cpp(417): warning C4100: r: неиспользованный формальный параметр
-  m_integ_a01.cpp
-  m_integ_a02.cpp
-quiz\render\script\m_integ_a02.cpp(436): warning C4101: buf: неиспользованная локальная переменная
-quiz\render\script\m_integ_a02.cpp(524): warning C4101: buf: неиспользованная локальная переменная
-quiz\render\script\m_integ_a02.cpp(542): warning C4101: buf: неиспользованная локальная переменная
-quiz\render\script\m_integ_a02.cpp(560): warning C4101: buf: неиспользованная локальная переменная
-quiz\render\script\m_integ_a02.cpp(576): warning C4100: r: неиспользованный формальный параметр
-quiz\render\script\m_integ_a02.cpp(578): warning C4101: buf: неиспользованная локальная переменная
-quiz\render\script\m_integ_a02.cpp(592): warning C4100: r: неиспользованный формальный параметр
-quiz\render\script\m_integ_a02.cpp(594): warning C4101: buf: неиспользованная локальная переменная
-quiz\render\script\m_integ_a02.cpp(608): warning C4100: r: неиспользованный формальный параметр
-quiz\render\script\m_integ_a02.cpp(610): warning C4101: buf: неиспользованная локальная переменная
-quiz\render\script\m_integ_a02.cpp(624): warning C4100: r: неиспользованный формальный параметр
-quiz\render\script\m_integ_a02.cpp(626): warning C4101: buf: неиспользованная локальная переменная
-quiz\render\script\m_integ_a02.cpp(638): warning C4100: r: неиспользованный формальный параметр
-quiz\render\script\m_integ_a02.cpp(640): warning C4101: buf: неиспользованная локальная переменная
-quiz\render\script\m_integ_a02.cpp(654): warning C4101: buf: неиспользованная локальная переменная
-quiz\render\script\m_integ_a02.cpp(672): warning C4101: buf: неиспользованная локальная переменная
-quiz\render\script\m_integ_a02.cpp(690): warning C4101: buf: неиспользованная локальная переменная
-  m_integ_a03.cpp
-  m_limits.cpp
-quiz\render\script\m_limits.cpp(23): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(48): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(67): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(85): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(103): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(123): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(144): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(164): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(185): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(206): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(226): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(256): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(284): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(313): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(344): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(363): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(409): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(432): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(454): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(476): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(498): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(527): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(555): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(572): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(589): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(606): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(623): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(640): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(660): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(677): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(693): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(710): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(710): warning C4100: r: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(740): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(758): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(769): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(786): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(804): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(820): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(836): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(851): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(866): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(882): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(897): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(914): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(931): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(948): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(964): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(979): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(994): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1013): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1030): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1052): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1070): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1088): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1110): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1132): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1150): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1166): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1183): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1200): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1215): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1232): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1248): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1265): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1282): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1300): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1310): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1326): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1342): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1362): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1381): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1400): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1419): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1438): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1457): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1476): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1495): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1514): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1533): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1552): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1571): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1589): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1606): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1625): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1644): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1665): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1665): warning C4100: r: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1672): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1693): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1714): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1735): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1756): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1778): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1795): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1812): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1830): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1848): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1867): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1884): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1902): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1920): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1937): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1954): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1971): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(1992): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(2013): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(2033): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(2052): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(2074): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(2091): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(2110): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(2129): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(2148): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(2263): warning C4100: src: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(2263): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(2280): warning C4100: src: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(2280): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(2297): warning C4100: src: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(2297): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(2312): warning C4100: src: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(2312): warning C4100: answ: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(2407): warning C4100: src: неиспользованный формальный параметр
-quiz\render\script\m_limits.cpp(2407): warning C4100: answ: неиспользованный формальный параметр
-  main.cpp
-  mainwindow.cpp
-c:\mentorii\mentor_v2\gui\../quiz/render/web/webrenderer.h(7): warning C4100: totalQuestions: неиспользованный формальный параметр
-c:\mentorii\mentor_v2\gui\../quiz/render/web/webrenderer.h(7): warning C4100: processed: неиспользованный формальный параметр
-c:\mentorii\mentor_v2\gui\../quiz/render/web/webrenderer.h(8): warning C4100: totalQuestions: неиспользованный формальный параметр
-  printscriptrenderer.cpp
-  quiz.cpp
-  Создание кода...
-c:\mentorii\mentor_v2\quiz\render\script\m_integ_a02.cpp(546): warning C4700: использована неинициализированная локальная переменная "b"
-c:\mentorii\mentor_v2\quiz\render\script\m_integ_a02.cpp(528): warning C4700: использована неинициализированная локальная переменная "b"
-c:\mentorii\mentor_v2\quiz\render\script\m_integ_a02.cpp(564): warning C4700: использована неинициализированная локальная переменная "b"
-  Компиляция...
-  quiz_dlgproperties.cpp
-  quizadapter.cpp
-  quizcell.cpp
-quiz\view\views\cell\quizcell.cpp(48): warning C4189: dropAction: локальная переменная инициализирована, но не использована
-quiz\view\views\cell\quizcell.cpp(51): warning C4100: e: неиспользованный формальный параметр
-  quizfile.cpp
-  quizfilter.cpp
-  quizgroup.cpp
-quiz\quizgroup.cpp(15): warning C4390: ";": обнаружен пустой контролируемый оператор; это правильно?
-  quizgroup_dlgproperties.cpp
-  quizgroup_quizcell.cpp
-quiz\view\views\cell\quizgroup_quizcell.cpp(17): warning C4189: g: локальная переменная инициализирована, но не использована
-  quizgroup_quiznodeview.cpp
-  quizgroup_quizviewerhelper.cpp
-  quizgroup_xmlquizfile_structure_helper.cpp
-  quizgroupfilter.cpp
-  quiznode.cpp
-  quiznodeview.cpp
-  quizquestion.cpp
-  quizquestion_quizcell.cpp
-  quizquestion_xmlquizfile_structure_helper.cpp
-  quizvariant.cpp
-  quizview.cpp
-  quizviewer.cpp
-  Создание кода...
-  Компиляция...
-  quizviewerhelper.cpp
-  random_quizgroupfilter.cpp
-  scriptrenderer.cpp
-c:\mentorii\mentor_v2\quiz\render\script\series_scriptrendererhelper.h(7): warning C4100: q: неиспользованный формальный параметр
-c:\mentorii\mentor_v2\quiz\render\script\series_scriptrendererhelper.h(8): warning C4100: q: неиспользованный формальный параметр
-c:\mentorii\mentor_v2\quiz\render\script\diffequ_scriptrendererhelper.h(7): warning C4100: q: неиспользованный формальный параметр
-c:\mentorii\mentor_v2\quiz\render\script\diffequ_scriptrendererhelper.h(8): warning C4100: q: неиспользованный формальный параметр
-  scriptrendererhelper.cpp
-  shuffle_quizgroupfilter.cpp
-  task2quiz.cpp
-  taskcell.cpp
-  taskgroup.cpp
-  taskgroup_taskcell.cpp
-  taskgroup_taskloaderhelper.cpp
-  taskgroup_taskview.cpp
-  taskgroup_taskviewerhelper.cpp
-  taskgrouptoquiz.cpp
-  taskloader.cpp
-  taskloaderhelper.cpp
-  taskmtrtable.cpp
-  taskmtrtable_taskcell.cpp
-  taskmtrtable_taskloaderhelper.cpp
-  taskmtrtable_taskview.cpp
-  taskmtrtable_taskviewerhelper.cpp
-  Создание кода...
-  Компиляция...
-  taskmtrtabletoquiz.cpp
-  tasknode.cpp
-  taskquestion.cpp
-  taskquestion_taskcell.cpp
-  taskquestion_taskloaderhelper.cpp
-  taskquestion_taskview.cpp
-  taskquestion_taskviewerhelper.cpp
-  taskquestiontoquiz.cpp
-  tasktoquizhelper.cpp
-  tasktree.cpp
-  taskview.cpp
-  taskviewer.cpp
-  taskviewerhelper.cpp
-  txttobmp.cpp
-  utils.cpp
-  webrenderer.cpp
-c:\mentorii\mentor_v2\quiz\render\web\webrenderer.h(7): warning C4100: totalQuestions: неиспользованный формальный параметр
-c:\mentorii\mentor_v2\quiz\render\web\webrenderer.h(7): warning C4100: processed: неиспользованный формальный параметр
-c:\mentorii\mentor_v2\quiz\render\web\webrenderer.h(8): warning C4100: totalQuestions: неиспользованный формальный параметр
-  xmlquizfile.cpp
-quiz\file\xmlquizfile.cpp(90): warning C4100: xml: неиспользованный формальный параметр
-  xmlquizfile_quizgroupfilter.cpp
-quiz\file\xmlquizfile_quizgroupfilter.cpp(16): warning C4100: value: неиспользованный формальный параметр
-quiz\file\xmlquizfile_quizgroupfilter.cpp(29): warning C4100: value: неиспользованный формальный параметр
-quiz\file\xmlquizfile_quizgroupfilter.cpp(51): warning C4100: f: неиспользованный формальный параметр
-quiz\file\xmlquizfile_quizgroupfilter.cpp(66): warning C4100: f: неиспользованный формальный параметр
-  xmlquizfile_structure.cpp
-  xmlquizfile_variants.cpp
-  Создание кода...
-  qrc_r.cpp
-  Mentor_v2.vcxproj -> C:\MentorII\Mentor_v2\debug\MentorII.exe
+﻿Сборка начата 12.07.2017 22:05:41.
+     1>Проект "C:\Visual studio 2015\Projects\MentorII\Mentor_v2\Mentor_v2.vcxproj" в узле 2 (целевые объекты Build).
+     1>CustomBuild:
+         Rcc'ing r.qrc...
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I. /IC:\Qt\Qt5.5.0\5.5\msvc2013_64\include /IC:\Qt\Qt5.5.0\5.5\msvc2013_64\include\QtWebKit /IC:\Qt\Qt5.5.0\5.5\msvc2013_64\include\QtGui /IC:\Qt\Qt5.5.0\5.5\msvc2013_64\include\QtANGLE /IC:\Qt\Qt5.5.0\5.5\msvc2013_64\include\QtXml /IC:\Qt\Qt5.5.0\5.5\msvc2013_64\QtNetwork /IC:\Qt\Qt5.5.0\5.5\msvc2013_64\include\QtCore /Idebug /I"C:\Qt\Qt5.5.0\5.5\msvc2013_64\mkspecs\win32-msvc2013" /I.\GeneratedFiles /IC:\Qt\Qt5.5.0\5.5\msvc2013_64\include\QtUiTools /IC:\Qt\Qt5.5.0\5.5\msvc2013_64\include\QtWebkitWidgets /IC:\Qt\Qt5.5.0\5.5\msvc2013_64\include\QtWidgets /IC:\Qt\Qt5.5.0\5.5\msvc2013_64\include\QtQml /IC:\Qt\Qt5.5.0\5.5\msvc2013_64\include\QtPrintSupport /IC:\Qt\Qt5.5.0\5.5\msvc2013_64\include\QtScript /Zi /nologo /W3 /WX- /Od /D _WINDOWS /D UNICODE /D WIN32 /D WIN64 /D "WINVER = 0x0501" /D "_WIN32_WINNT = 0x0501" /D QT_WEBKIT_LIB /D QT_GUI_LIB /D QT_XML_LIB /D QT_NETWORK_LIB /D QT_CORE_LIB /D QT_UITOOLS_LIB /D QT_WEBKITWIDGETS_LIB /D QT_WIDGETS_LIB /D QT_QML_LIB /D QT_PRINTSUPPORT_LIB /D QT_SCRIPT_LIB /D QT_DLL /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt -w34100 -w34189 -w44996 GeneratedFiles\qrc_r.cpp
+         qrc_r.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"debug\\MentorII.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.5.0\5.5\msvc2013_64\lib C:\Qt\Qt5.5.0\5.5\msvc2013_64\lib\qtmaind.lib shell32.lib C:\Qt\Qt5.5.0\5.5\msvc2013_64/lib\Qt5Cored.lib C:\Qt\Qt5.5.0\5.5\msvc2013_64\lib\Qt5WebKitd.lib C:\Qt\Qt5.5.0\5.5\msvc2013_64\lib\Qt5Guid.lib C:\Qt\Qt5.5.0\5.5\msvc2013_64\lib\Qt5Xmld.lib C:\Qt\Qt5.5.0\5.5\msvc2013_64\lib\Qt5Networkd.lib C:\Qt\Qt5.5.0\5.5\msvc2013_64\lib\Qt5Cored.lib Qt5Guid.lib Qt5WebKitd.lib Qt5UiToolsd.lib Qt5WebkitWidgetsd.lib Qt5Widgetsd.lib Qt5Cored.lib Qt5Qmld.lib Qt5PrintSupportd.lib Qt5Scriptd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"debug\MentorII.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X64 "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" x64\Debug\Mentor_v2.res
+         x64\Debug\moc_dlgabout.obj
+         x64\Debug\moc_dlgaddquestions.obj
+         x64\Debug\moc_dlgnewgroup.obj
+         x64\Debug\moc_dlgtestgenprogress.obj
+         x64\Debug\moc_dlgvariant.obj
+         x64\Debug\moc_dlgvariants.obj
+         x64\Debug\moc_mainwindow.obj
+         x64\Debug\moc_quizcell.obj
+         x64\Debug\moc_quizgroup_dlgproperties.obj
+         x64\Debug\moc_quizgroup_quizcell.obj
+         x64\Debug\moc_quizgroup_quiznodeview.obj
+         x64\Debug\moc_quiznode.obj
+         x64\Debug\moc_quiznodeview.obj
+         x64\Debug\moc_quizquestion_quizcell.obj
+         x64\Debug\moc_quizview.obj
+         x64\Debug\moc_quiz_dlgproperties.obj
+         x64\Debug\moc_taskcell.obj
+         x64\Debug\moc_taskgroup_taskcell.obj
+         x64\Debug\moc_taskgroup_taskview.obj
+         x64\Debug\moc_taskmtrtable_taskcell.obj
+         x64\Debug\moc_taskmtrtable_taskview.obj
+         x64\Debug\moc_taskquestion_taskcell.obj
+         x64\Debug\moc_taskquestion_taskview.obj
+         x64\Debug\moc_taskview.obj
+         x64\Debug\qrc_r.obj
+         x64\Debug\chain.obj
+         x64\Debug\derivs_generatedquestion.obj
+         x64\Debug\derivs_generatorhelper.obj
+         x64\Debug\derivs_scriptrendererhelper.obj
+         x64\Debug\dlgabout.obj
+         x64\Debug\dlgaddquestions.obj
+         x64\Debug\dlgnewgroup.obj
+         x64\Debug\dlgtestgenprogress.obj
+         x64\Debug\dlgvariant.obj
+         x64\Debug\dlgvariants.obj
+         x64\Debug\generatedquestion.obj
+         x64\Debug\generator.obj
+         x64\Debug\generatorhelper.obj
+         x64\Debug\imagerenderer.obj
+         x64\Debug\integrals_generatedquestion.obj
+         x64\Debug\integrals_generatorhelper.obj
+         x64\Debug\integrals_scriptrendererhelper.obj
+         x64\Debug\legacy_helpers.obj
+         x64\Debug\limits_generatedquestion.obj
+         x64\Debug\limits_generatorhelper.obj
+         x64\Debug\limits_scriptrendererhelper.obj
+         x64\Debug\m_deriv.obj
+         x64\Debug\m_deriv_01.obj
+         x64\Debug\m_deriv_02.obj
+         x64\Debug\m_expressions.obj
+         x64\Debug\m_integ.obj
+         x64\Debug\m_integ0xxb.obj
+         x64\Debug\m_integ2.obj
+         x64\Debug\m_integ_a01.obj
+         x64\Debug\m_integ_a02.obj
+         x64\Debug\m_integ_a03.obj
+         x64\Debug\m_limits.obj
+         x64\Debug\main.obj
+         x64\Debug\mainwindow.obj
+         x64\Debug\printscriptrenderer.obj
+         x64\Debug\quiz.obj
+         x64\Debug\quiz_dlgproperties.obj
+         x64\Debug\quizadapter.obj
+         x64\Debug\quizcell.obj
+         x64\Debug\quizfile.obj
+         x64\Debug\quizfilter.obj
+         x64\Debug\quizgroup.obj
+         x64\Debug\quizgroup_dlgproperties.obj
+         x64\Debug\quizgroup_quizcell.obj
+         x64\Debug\quizgroup_quiznodeview.obj
+         x64\Debug\quizgroup_quizviewerhelper.obj
+         x64\Debug\quizgroup_xmlquizfile_structure_helper.obj
+         x64\Debug\quizgroupfilter.obj
+         x64\Debug\quiznode.obj
+         x64\Debug\quiznodeview.obj
+         x64\Debug\quizquestion.obj
+         x64\Debug\quizquestion_quizcell.obj
+         x64\Debug\quizquestion_xmlquizfile_structure_helper.obj
+         x64\Debug\quizvariant.obj
+         x64\Debug\quizview.obj
+         x64\Debug\quizviewer.obj
+         x64\Debug\quizviewerhelper.obj
+         x64\Debug\random_quizgroupfilter.obj
+         x64\Debug\scriptrenderer.obj
+         x64\Debug\scriptrendererhelper.obj
+         x64\Debug\shuffle_quizgroupfilter.obj
+         x64\Debug\task2quiz.obj
+         x64\Debug\taskcell.obj
+         x64\Debug\taskgroup.obj
+         x64\Debug\taskgroup_taskcell.obj
+         x64\Debug\taskgroup_taskloaderhelper.obj
+         x64\Debug\taskgroup_taskview.obj
+         x64\Debug\taskgroup_taskviewerhelper.obj
+         x64\Debug\taskgrouptoquiz.obj
+         x64\Debug\taskloader.obj
+         x64\Debug\taskloaderhelper.obj
+         x64\Debug\taskmtrtable.obj
+         x64\Debug\taskmtrtable_taskcell.obj
+         x64\Debug\taskmtrtable_taskloaderhelper.obj
+         x64\Debug\taskmtrtable_taskview.obj
+         x64\Debug\taskmtrtable_taskviewerhelper.obj
+         x64\Debug\taskmtrtabletoquiz.obj
+         x64\Debug\tasknode.obj
+         x64\Debug\taskquestion.obj
+         x64\Debug\taskquestion_taskcell.obj
+         x64\Debug\taskquestion_taskloaderhelper.obj
+         x64\Debug\taskquestion_taskview.obj
+         x64\Debug\taskquestion_taskviewerhelper.obj
+         x64\Debug\taskquestiontoquiz.obj
+         x64\Debug\tasktoquizhelper.obj
+         x64\Debug\tasktree.obj
+         x64\Debug\taskview.obj
+         x64\Debug\taskviewer.obj
+         x64\Debug\taskviewerhelper.obj
+         x64\Debug\txttobmp.obj
+         x64\Debug\utils.obj
+         x64\Debug\webrenderer.obj
+         x64\Debug\xmlquizfile.obj
+         x64\Debug\xmlquizfile_quizgroupfilter.obj
+         x64\Debug\xmlquizfile_structure.obj
+         x64\Debug\xmlquizfile_variants.obj
+         Mentor_v2.vcxproj -> C:\Visual studio 2015\Projects\MentorII\Mentor_v2\debug\MentorII.exe
+     1>Сборка проекта "C:\Visual studio 2015\Projects\MentorII\Mentor_v2\Mentor_v2.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:02.62

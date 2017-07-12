@@ -172,8 +172,9 @@ public:
         fraTask->setFrameShadow(QFrame::Raised);
         verticalLayout = new QVBoxLayout(fraTask);
         verticalLayout->setSpacing(0);
-        verticalLayout->setContentsMargins(0, 0, 0, 0);
+        verticalLayout->setContentsMargins(11, 11, 11, 11);
         verticalLayout->setObjectName(QStringLiteral("verticalLayout"));
+        verticalLayout->setContentsMargins(0, 0, 0, 0);
         splitter->addWidget(fraTask);
         fraQuiz = new QFrame(splitter);
         fraQuiz->setObjectName(QStringLiteral("fraQuiz"));
@@ -183,8 +184,9 @@ public:
         fraQuiz->setFrameShadow(QFrame::Raised);
         verticalLayout_2 = new QVBoxLayout(fraQuiz);
         verticalLayout_2->setSpacing(0);
-        verticalLayout_2->setContentsMargins(0, 0, 0, 0);
+        verticalLayout_2->setContentsMargins(11, 11, 11, 11);
         verticalLayout_2->setObjectName(QStringLiteral("verticalLayout_2"));
+        verticalLayout_2->setContentsMargins(0, 0, 0, 0);
         splitter->addWidget(fraQuiz);
 
         gridLayout->addWidget(splitter, 0, 0, 1, 1);
@@ -222,7 +224,7 @@ public:
         MainWindow->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(MainWindow);
         menuBar->setObjectName(QStringLiteral("menuBar"));
-        menuBar->setGeometry(QRect(0, 0, 787, 17));
+        menuBar->setGeometry(QRect(0, 0, 787, 21));
         menu = new QMenu(menuBar);
         menu->setObjectName(QStringLiteral("menu"));
         menu_5 = new QMenu(menuBar);

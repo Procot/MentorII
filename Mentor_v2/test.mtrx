@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<quiz version="1.0">
+    <structure>
+        <group>
+            <title></title>
+            <description></description>
+            <question>
+                <id>lim1</id>
+                <img src="46\1.png"/>
+            </question>
+            <question>
+                <id>lim2</id>
+                <img src="46\2.png"/>
+            </question>
+            <question>
+                <id>lim10</id>
+                <img src="46\10.png"/>
+            </question>
+        </group>
+    </structure>
+    <variants/>
+</quiz>
