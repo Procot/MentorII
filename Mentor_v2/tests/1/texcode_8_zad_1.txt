@@ -1,0 +1,19 @@
+String("Вариант 8, задача 1.")
+String("Вычислить предел:")
+lim(x->0, sin(x)/(3*x))=...
+String( )
+String("Ответ a):")
+lim(x->0, sin(x)/(3*x))=inf
+String( )
+String("Ответ b):")
+lim(x->0, sin(x)/(3*x))=5
+String( )
+String("Ответ c):")
+lim(x->0, sin(x)/(3*x))=1/3
+String( )
+String("Ответ d):")
+lim(x->0, sin(x)/(3*x))=7/3
+String( )
+String("Ответ e):")
+lim(x->0, sin(x)/(3*x))=-2
+String( )

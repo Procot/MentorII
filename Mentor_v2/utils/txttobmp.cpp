@@ -39,7 +39,7 @@ QImage TxtToBmp::convert (const QStringList &lines)
 {
     int left = 10, top = 10;
    // QString workdir = QDir::toNativeSeparators(QApplication::applicationDirPath()) + "\\utility\\";
-	QString workdir = QApplication::applicationDirPath() + "/utility/";
+	QString workdir = QApplication::applicationDirPath() + "/.." + "/utility/";
     qDebug() << workdir;
 
 

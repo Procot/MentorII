@@ -1,0 +1,19 @@
+String("Вариант 3, задача 2.")
+String("Вычислить предел:")
+lim(x->0,(x^2+3*x-4)/(x^2-x-6))=...
+String( )
+String("Ответ a):")
+lim(x->0,(x^2+3*x-4)/(x^2-x-6))=7/72
+String( )
+String("Ответ b):")
+lim(x->0,(x^2+3*x-4)/(x^2-x-6))=8/11
+String( )
+String("Ответ c):")
+lim(x->0,(x^2+3*x-4)/(x^2-x-6))=inf
+String( )
+String("Ответ d):")
+lim(x->0,(x^2+3*x-4)/(x^2-x-6))=2/3
+String( )
+String("Ответ e):")
+lim(x->0,(x^2+3*x-4)/(x^2-x-6))=1
+String( )

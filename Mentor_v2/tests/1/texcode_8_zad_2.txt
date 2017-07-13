@@ -1,0 +1,16 @@
+String("Вариант 8, задача 2.")
+String("Найдите интеграл:")
+Int((e^(-2*x))*cos(e^(-2*x)+5))*diff(x)
+String( )
+String("Ответ a):")
+...=-((e^(-2*x))/(-2))*cos(e^(-2*x)+5)+C
+String( )
+String("Ответ b):")
+...=cos(e^(-2*x)+5)/(-2)+C
+String( )
+String("Ответ c):")
+...=sin(e^(-2*x)+5)/(-2)+C
+String( )
+String("Ответ d):")
+...=-cos(e^(-2*x)+5)/(-2)+C
+String( )

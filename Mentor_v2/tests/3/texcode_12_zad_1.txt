@@ -1,0 +1,19 @@
+String("Вариант 12, задача 1.")
+String("Вычислить предел:")
+lim(x->0, arcsin(2*x)/x)=...
+String( )
+String("Ответ a):")
+lim(x->0, arcsin(2*x)/x)=-(1/5)
+String( )
+String("Ответ b):")
+lim(x->0, arcsin(2*x)/x)=2
+String( )
+String("Ответ c):")
+lim(x->0, arcsin(2*x)/x)=6
+String( )
+String("Ответ d):")
+lim(x->0, arcsin(2*x)/x)=-(1/2)
+String( )
+String("Ответ e):")
+lim(x->0, arcsin(2*x)/x)=inf
+String( )

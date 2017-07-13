@@ -135,6 +135,7 @@ void XMLQuizFile::save (const QString &filename, Quiz *quiz)
 	if (!file.open(QIODevice::WriteOnly | QIODevice::Truncate))
 		throw 1;
 	QTextStream stream(&file);
+	QStringList list = str.split("\n");
 	stream << str;
 	file.close();
 

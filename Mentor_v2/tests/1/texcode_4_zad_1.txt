@@ -1,0 +1,16 @@
+String("Вариант 4, задача 1.")
+String("Найдите интеграл:")
+Int((e^(4*x))*cos(e^(4*x)+2))*diff(x)
+String( )
+String("Ответ a):")
+...=sin(e^(4*x)+2)/(4)+C
+String( )
+String("Ответ b):")
+...=cos(e^(4*x)+2)/(4)+C
+String( )
+String("Ответ c):")
+...=-cos(e^(4*x)+2)/(4)+C
+String( )
+String("Ответ d):")
+...=-((e^(4*x))/(4))*cos(e^(4*x)+2)+C
+String( )

@@ -1,0 +1,19 @@
+String("Вариант 3, задача 2.")
+String("Вычислить предел:")
+lim(x->5,(x^2)/(x^2-3*x-4))=...
+String( )
+String("Ответ a):")
+lim(x->5,(x^2)/(x^2-3*x-4))=0
+String( )
+String("Ответ b):")
+lim(x->5,(x^2)/(x^2-3*x-4))=8/7
+String( )
+String("Ответ c):")
+lim(x->5,(x^2)/(x^2-3*x-4))=-(40/9)
+String( )
+String("Ответ d):")
+lim(x->5,(x^2)/(x^2-3*x-4))=inf
+String( )
+String("Ответ e):")
+lim(x->5,(x^2)/(x^2-3*x-4))=25/6
+String( )

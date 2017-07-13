@@ -1,0 +1,16 @@
+String("Вариант 6, задача 2.")
+String("Найдите интеграл:")
+Int((e^(3*x))*cos(e^(3*x)+3))*diff(x)
+String( )
+String("Ответ a):")
+...=sin(e^(3*x)+3)/(3)+C
+String( )
+String("Ответ b):")
+...=cos(e^(3*x)+3)/(3)+C
+String( )
+String("Ответ c):")
+...=-cos(e^(3*x)+3)/(3)+C
+String( )
+String("Ответ d):")
+...=-((e^(3*x))/(3))*cos(e^(3*x)+3)+C
+String( )

@@ -1,0 +1,19 @@
+String("Вариант 9, задача 1.")
+String("Вычислить предел:")
+lim(x->0, (1-cos(2*x))/(-5*x))=...
+String( )
+String("Ответ a):")
+lim(x->0, (1-cos(2*x))/(-5*x))=3/5
+String( )
+String("Ответ b):")
+lim(x->0, (1-cos(2*x))/(-5*x))=6/7
+String( )
+String("Ответ c):")
+lim(x->0, (1-cos(2*x))/(-5*x))=inf
+String( )
+String("Ответ d):")
+lim(x->0, (1-cos(2*x))/(-5*x))=0
+String( )
+String("Ответ e):")
+lim(x->0, (1-cos(2*x))/(-5*x))=1
+String( )

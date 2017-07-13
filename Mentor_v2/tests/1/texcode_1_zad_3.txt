@@ -1,0 +1,16 @@
+String("Вариант 1, задача 3.")
+String("Найдите интеграл:")
+Int((e^(-5*x))*cos(e^(-5*x)+2))*diff(x)
+String( )
+String("Ответ a):")
+...=-cos(e^(-5*x)+2)/(-5)+C
+String( )
+String("Ответ b):")
+...=sin(e^(-5*x)+2)/(-5)+C
+String( )
+String("Ответ c):")
+...=-((e^(-5*x))/(-5))*cos(e^(-5*x)+2)+C
+String( )
+String("Ответ d):")
+...=cos(e^(-5*x)+2)/(-5)+C
+String( )

@@ -100,8 +100,8 @@ public:
         frame_2->setFrameShadow(QFrame::Sunken);
         verticalLayout_2 = new QVBoxLayout(frame_2);
         verticalLayout_2->setSpacing(0);
-        verticalLayout_2->setContentsMargins(0, 0, 0, 0);
         verticalLayout_2->setObjectName(QStringLiteral("verticalLayout_2"));
+        verticalLayout_2->setContentsMargins(0, 0, 0, 0);
         webView = new QWebView(frame_2);
         webView->setObjectName(QStringLiteral("webView"));
         webView->setRenderHints(QPainter::Antialiasing|QPainter::HighQualityAntialiasing|QPainter::NonCosmeticDefaultPen|QPainter::SmoothPixmapTransform|QPainter::TextAntialiasing);
@@ -122,10 +122,8 @@ public:
         frame->setObjectName(QStringLiteral("frame"));
         frame->setFrameShadow(QFrame::Raised);
         horizontalLayout_2 = new QHBoxLayout(frame);
-#ifndef Q_OS_MAC
-        horizontalLayout_2->setContentsMargins(9, 9, 9, 9);
-#endif
         horizontalLayout_2->setObjectName(QStringLiteral("horizontalLayout_2"));
+        horizontalLayout_2->setContentsMargins(9, 9, 9, 9);
         btnRegenerate = new QPushButton(frame);
         btnRegenerate->setObjectName(QStringLiteral("btnRegenerate"));
 
@@ -137,7 +135,7 @@ public:
 
         chkViewTestAnswers = new QCheckBox(frame);
         chkViewTestAnswers->setObjectName(QStringLiteral("chkViewTestAnswers"));
-        chkViewTestAnswers->setChecked(true);
+        chkViewTestAnswers->setChecked(false);
 
         horizontalLayout_2->addWidget(chkViewTestAnswers);
 
